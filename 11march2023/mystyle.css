@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(149, 144, 144);
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: poppins;
+    border: 5px solid rgb(230, 73, 201);
+    margin: 30px 45px;
+    padding: 10px;
+    padding-left: 120px;
+
+}
+
+p{
+    color: aqua;
+    background-color:blue
+}
+
+#googlefont{
+    font-size: 50px;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.para{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+span{
+    border: 3px solid rgb(230, 73, 201);
+    color: blue;
+}
+
+#myspan{
+    color: violet;
+}
+
+li{
+    display: inline;
+    margin-left: 85px;
+}
+a{
+    text-decoration: none;
+}
