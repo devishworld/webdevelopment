@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            border: 8px solid red;
+        }
+        .mydiv{
+            position: static;
+        }
+        .reldiv2{
+            /* width: 600px; */
+            border: 3px solid blue;
+            position: relative;
+            left: 40px;
+        }
+        .reldiv{
+            /* width: 600px; */
+            /* border: 3px solid blue; */
+            position: relative;
+            left: 40px;
+        }
+        /* .fixed{
+            position: fixed;
+        } */
+        .parent{
+            position: relative;
+            height: 200px;
+        }
+        .child{
+            width: 180px;
+            position: absolute;
+            border: 4px solid green;
+            /* top:50px; */
+            /* bottom:0;
+            left:0; */
+            /* to make the child container in center */
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .myh1{
+            background-color: bisque;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Static Position</h1>
+    <div class="mydiv">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quis.</p>
+    </div>
+    <h1>Relative position</h1>
+    <div class="reldiv">
+        <div class="reldiv2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, vitae?</p>
+        </div>
+    </div>
+    <h1>Fixed position</h1>
+    <div class="fixed">
+        <p>Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+    <h1 class="myh1">I will be sticking at top of page</h1>
+    <h1>Absolute position</h1>
+    <div class="parent">
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae magni, quod dolorem nulla minima culpa non odio, commodi aut alias pariatur saepe qui necessitatibus dolore amet maiores praesentium molestias incidunt, obcaecati consequatur ipsum expedita quidem dolorum! Amet eos distinctio qui, ut sit praesentium! Numquam itaque obcaecati similique necessitatibus porro ducimus nostrum laborum at amet a quam alias expedita autem ipsam harum ut beatae, cum laboriosam, earum deleniti corporis. Maxime aut expedita nobis. Itaque, in sunt, quas optio minima nesciunt, quo excepturi soluta atque aperiam neque ad saepe ducimus expedita animi fuga provident. Minima qui quis quia animi iure quos, magnam laborum optio commodi voluptate odit unde veniam facilis numquam earum totam maxime ab accusamus placeat? Rem numquam impedit obcaecati ipsam? Voluptate, sint odit inventore sequi perferendis fuga alias eum, repellendus at ducimus libero eligendi distinctio mollitia facilis reiciendis hic provident illum ratione necessitatibus! Labore, quia reiciendis dignissimos et, consectetur ut repellendus quaerat numquam porro itaque amet error eius tenetur similique libero ad saepe nobis? Nostrum quas labore, libero qui maxime soluta enim doloremque! Nobis reiciendis corporis consequuntur repudiandae culpa architecto inventore beatae iusto. Commodi, doloribus numquam, unde odio, tenetur doloremque adipisci temporibus dolorum enim corrupti inventore maxime necessitatibus magnam laborum omnis voluptate quisquam fugit? Vel quod, repellendus, enim tenetur ducimus odio iusto eius impedit corporis, ullam eveniet expedita magni esse quisquam similique repellat incidunt tempora totam. Sed exercitationem laborum eligendi quam, saepe cumque rem quia ea tempora dicta libero rerum dolore autem, delectus doloremque quasi? Repellendus temporibus corporis minus maiores ad voluptate modi, vitae quod, reprehenderit facilis eligendi vel labore. Ab nisi cum aliquam veritatis! Hic porro alias sapiente eaque vero totam accusantium nihil? Temporibus consequatur asperiores vitae ipsa molestias magnam error laboriosam quod praesentium nesciunt. Excepturi totam eveniet placeat dicta accusantium at doloribus quaerat. Fugit eius ipsum aperiam repellendus earum distinctio repudiandae iure. Eos autem soluta recusandae, repellat laborum aliquam consequuntur fuga tenetur voluptate dolore ullam laudantium eum dolores deserunt consectetur optio sint quos asperiores fugit ut hic necessitatibus! Obcaecati distinctio natus exercitationem mollitia impedit laborum saepe amet dicta ea et veniam minus, debitis minima, quos nemo laboriosam tempora? Porro magnam nulla quisquam nesciunt excepturi soluta expedita debitis hic beatae nam? Soluta tempora consectetur, similique laboriosam iure ducimus minima impedit! Deserunt impedit voluptatibus commodi earum dolores, odit iste sunt temporibus mollitia nam, quod, labore repellendus sit facere laborum. Nam possimus maiores eos ullam quo! Optio perspiciatis placeat magni molestiae nisi consectetur nihil. Aspernatur harum laudantium animi maxime, obcaecati, iste adipisci, reiciendis facere at pariatur quam corrupti molestiae distinctio veritatis error dolorum. Magni sapiente soluta ipsam pariatur eligendi saepe, dolores voluptates earum, quasi qui voluptatem libero quibusdam. Dicta doloremque necessitatibus mollitia voluptates nesciunt tempora ad dolore eaque laudantium commodi, voluptate aperiam magni perferendis eum excepturi ea possimus! Blanditiis sunt error modi pariatur fugit voluptatem vitae aperiam odit, assumenda cum obcaecati aliquam vel, in cumque necessitatibus recusandae! Dolor aliquam harum perferendis nisi ex cum earum minima excepturi illum numquam sapiente, quaerat inventore quam molestiae. Et vitae modi eius dolorem esse!</p>
+    
+
+    
+</body>
+</html>
