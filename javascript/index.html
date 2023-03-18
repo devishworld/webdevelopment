@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    <h1>Hi Everyone</h1>
+    
+    <h3 id="mypara">1st element</h3>
+    <p>-----------------------------</p>
+
+    <!-- 0 index -->
+    <h3 class="myway">1st element</h3> 
+    <!-- 1 index -->
+    <p class="myway">2nd element</p>
+    <!-- 2 index  -->
+    <p class="myway">2nd element</p>
+
+    <script>
+    var mycontent = "Same internal Content";
+    document.getElementById("mypara").innerHTML = "Welcome to JavaScript Session";
+    
+    document.getElementsByClassName("myway")[0].innerHTML=mycontent;
+    document.getElementsByClassName("myway")[1].innerHTML=mycontent;
+    document.getElementsByClassName("myway")[2].innerHTML=mycontent;
+
+    </script>
+
+</body>
+</html>
